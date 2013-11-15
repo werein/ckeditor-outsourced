@@ -1,0 +1,15 @@
+cs:
+  created_updated_at: &cuat
+    created_at: Vytvořeno
+    updated_at: Aktualizováno
+  activerecord:
+    attributes:
+      ckeditor/asset:
+        data: Soubor
+        data_file_name: Název souboru
+        data_content_type: Typ souboru
+        data_file_size: Velikost
+        width: Šířka
+        height: Výška
+        type: Typ
+        <<: *cuat

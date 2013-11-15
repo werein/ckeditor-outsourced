@@ -1,0 +1,15 @@
+en:
+  created_updated_at: &cuat
+    created_at: Created at
+    updated_at: Updated at
+  activerecord:
+    attributes:
+      ckeditor/asset:
+        data: File
+        data_file_name: File name
+        data_content_type: File type
+        data_file_size: File size
+        width: Width
+        height: Height
+        type: Type
+        <<: *cuat

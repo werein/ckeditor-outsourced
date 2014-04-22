@@ -27,7 +27,7 @@ class CkeditorPictureUploader < CarrierWave::Uploader::Base
   # def scale(width, height)
   #   # do something
   # end
-  
+
   process :read_dimensions
 
   # Create different versions of your uploaded files:
@@ -44,4 +44,4 @@ class CkeditorPictureUploader < CarrierWave::Uploader::Base
   def extension_white_list
     Ckeditor.image_file_types
   end
-end
+end if defined? CarrierWave
